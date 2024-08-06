@@ -7,6 +7,9 @@ body {
 
 p {
     color: white;
+    margin:20px;
+    text-align: center;
+
 }
 
 h1 {
@@ -19,14 +22,16 @@ h1 {
     margin: 20px;
     display: inline-block;
     text-align: center;
-    height: 300px;
+    height: 350px;
     width: 200px;
+
 
     
 }
 
 .button {
     background-color: aqua;
+    color: white;
     font-weight: bold;
     padding: 2px;
     padding-left: 10px;
@@ -38,4 +43,31 @@ h1 {
     text-align: center;
     border-radius: 8px;
 
+}
+
+img {height: 200px;
+    display:block;
+    margin-bottom: 20px;
+}
+
+.Links {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Make sure images are responsive */
+.Links img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between the two containers */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping to a new line */
 }
